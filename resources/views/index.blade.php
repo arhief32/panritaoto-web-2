@@ -58,18 +58,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-lg-auto text-center">
                             <li class="nav-item active  mr-3">
-                                <a class="nav-link" href="{{ asset('public/index.html') }}">Home
+                                <a class="nav-link" href="{{ url('/') }}">Home
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li class="nav-item  mr-3">
-                                <a class="nav-link" href="{{ asset('public/about.html') }}">Tentang Kami</a>
+                                <a class="nav-link" href="{{ url('/') }}">Tentang Kami</a>
                             </li>
 							<li class="nav-item  mr-3">
-                                <a class="nav-link" href="{{ asset('public/services.html') }}">Pelayanan</a>
+                                <a class="nav-link" href="{{ url('/') }}">Pelayanan</a>
 							</li>
 							<li class="nav-item  mr-3">
-                                <a class="nav-link" href="{{ asset('public/services.html') }}">Galeri</a>
+                                <a class="nav-link" href="{{ url('/') }}">Galeri</a>
                             </li>
                             <!-- <li class="nav-item dropdown mr-3">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -82,7 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 </div>
                             </li> -->
                             <li class="nav-item mr-3">
-                                <a class="nav-link" href="{{ asset('public/contact.html') }}">Kontak</a>
+                                <a class="nav-link" href="{{ url('/') }}">Kontak</a>
                             </li>
                             <!-- <li class="nav-item">
                                	<i class="fas fa-phone pr-2"></i>CALL US 1-677-124-44227
@@ -443,10 +443,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Tautan</h4>
 						<ul>
 							<li><a href="{{ asset('public/index.html') }}">Home</a></li>
-							<li><a href="{{ asset('public/about.html') }}">Tentang Kami</a></li>
-							<li><a href="{{ asset('public/services.html') }}">Pelayanan</a></li>
+							<li><a href="{{ url('/') }}">Tentang Kami</a></li>
+							<li><a href="{{ url('/') }}">Pelayanan</a></li>
 							<li><a href="{{ asset('public/gallery.html') }}">Galeri</a></li>
-							<li><a href="{{ asset('public/contact.html') }}">Kontak</a></li>
+							<li><a href="{{ url('/') }}">Kontak</a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 sign-gd flickr-post">
