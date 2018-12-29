@@ -215,54 +215,62 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			Kami adalah perusahaan yang bergerak di bidang usaha otomotif yang melayani:</p>
 		<div class="card-deck pt-4 mt-md-4">
 			<div class="card">
-				<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('public/images/01-duco-oven.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Duco Oven</h5>
-				<p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				<p class="card-text mb-3 ">Bicara metode pengecatan bodi, saat ini paling ideal adalah dengan memanfaatkan ruangan khusus sebagai ruang pengerjaan. 
+					Metode yang kerap dijuluki "cat oven" ini, memanfaatkan ruangan yang bisa diatur level temperaturnya, mirip oven.</p>
 					<div class="ab_button">
-						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
 					</div>
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/g2.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('public/images/02-body-repair.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Body Repair</h5>
-				<p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				<p class="card-text mb-3 ">Kami tahu kendaraan Anda lebih dari sekedar tunggangan yang siap mengantar Anda ke tempat tujuan. 
+					Kendaraan Anda juga cermin kebanggaan Anda yang harus tampil prima baik di dalam, maupun tampilan luarnya. 
+					Untuk itulah Panrita Oto menyediakan layanan Body repair.</p>
 					<div class="ab_button">
-						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
 					</div>
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/g3.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('public/images/03-painting.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Painting</h5>
-				<p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				<p class="card-text mb-3 ">Memberikan perlindungan terhadap kendaraan merupakan hal yang mutlak bagi setiap pemilik mobil. 
+					Karena mobil merupakan alat penunjang aktivitas sehari-hari, dan bagian dari gaya hidup. Ada beberapa cara agar mobil 
+					tetap tampil maksimal dengan cat (paint) bodi yang mengilap, tetap orisinal dan bersih.</p>
 					<div class="ab_button">
-						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="card-deck pt-4 mt-md-4">
 			<div class="card">
-				<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('public/images/04-service-station.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Service Station</h5>
-				<p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				<p class="card-text mb-3 ">Part-part yang kinerjanya menurun juga akan mempengaruhi performa mesin kendaraan tersebut. 
+				Oleh sebab itu part-part yang terindikasi kinerjanya menurun harus dilakukan perawatan. Salah satu perawatan yang 
+				dilakukan adalah perawatan atau servis berkala.</p>
 					<div class="ab_button">
-						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
 					</div>
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/g2.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('public/images/05-cat-sickens.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
-				<h5 class="card-title">Cat Sickens</h5>
-				<p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+				<h5 class="card-title">Cat Sikkens</h5>
+				<p class="card-text mb-3 ">Cat sikkens selama ini memang lebih banyak digunakan oleh kalangan induatri otomotif dan juga bengkel-bengkel repair 
+					yang bereputasi tinggi. Sehingga produk retailnya seringkali jarang dijumpai pada toko retail biasa, kecuali toko yang fokus menjual bahan finishing mobil.</p>
 					<div class="ab_button">
-						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
 					</div>
 				</div>
 			</div>
@@ -286,37 +294,109 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 									<div class="test-bg-w3ls">
-										<h4>Nama Asuransi 1</h4>
-										<p>Jl. Kote 1, Kel. Antang, Kec. Manggala, Makassar</p>
+										<h4>JASINDO</h4>
+										<p>Jl. Haji Bau No. 8 Mariso, Makassar, Sulawesi-Selatan 90122</p>
+										<p>No. telp (0411) 873888,875091,873666</p>
+										<p>Email: Makassar@jasindonet.com</p>
 									</div>
-									<img src="{{ asset('public/images/ts1.jpg') }}" alt=" " class="img-responsive" />
+									<img src="{{ asset('public/images/asuransi/01-asuransi-jasindo.png') }}" alt=" " class="img-responsive" />
 								</div>
 							</li>
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 									<div class="test-bg-w3ls">
-										<h4>Nama Asuransi 1</h4>
-										<p>Jl. Kote 1, Kel. Antang, Kec. Manggala, Makassar</p>
+										<h4>ASOKA MAS</h4>
+										<p>Jl. Tentara Pelajar No. 127 Makassar, Sulawesi-Selatan 90172</p>
+										<p>No. telp 0411 3635269</p>
+										<p>Email: Makassar@asuransi-asoka.com</p>
 									</div>
-									<img src="{{ asset('public/images/ts1.jpg') }}" alt=" " class="img-responsive" />
+									<img src="{{ asset('public/images/asuransi/02-asoka-mas.png') }}" alt=" " class="img-responsive" />
 								</div>
 							</li>
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 									<div class="test-bg-w3ls">
-										<h4>Nama Asuransi 1</h4>
-										<p>Jl. Kote 1, Kel. Antang, Kec. Manggala, Makassar</p>
+										<h4>TRI PAKARTA</h4>
+										<p>Jl. Dr. Sam Ratulangi No. 9 Makassar , Sulawesi-Selatan 90113</p>
+										<p>No. telp 0411 8111400</p>
 									</div>
-									<img src="{{ asset('public/images/ts1.jpg') }}" alt=" " class="img-responsive" />
+									<img src="{{ asset('public/images/asuransi/03-tri-pakarta.png') }}" alt=" " class="img-responsive" />
 								</div>
 							</li>
 							<li>
 								<div class="w3_agileits_testimonial_grid">
 									<div class="test-bg-w3ls">
-										<h4>Nama Asuransi 1</h4>
-										<p>Jl. Kote 1, Kel. Antang, Kec. Manggala, Makassar</p>
+										<h4>RAMAYANA</h4>
+										<p>Jl. Dr. Sam Ratulangi No. 85 C Makassar, Sulawesi-Selatan 90132</p>
+										<p>No. telp (0411) 878663, 878664, 878666</p>
 									</div>
-									<img src="{{ asset('public/images/ts1.jpg') }}" alt=" " class="img-responsive" />
+									<img src="{{ asset('public/images/asuransi/04-asuransi-ramayana.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>SINAR MAS</h4>
+										<p>Jl. Gunung Bawakaraeng No. 67-69 Makassar, Sulawesi-Selatan 90157</p>
+										<p>No. telp 0411 3616752</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/05-sinar-mas.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>ASPAN</h4>
+										<p>Gedung Graha Pena Lt. 1 Kav 100E</p>
+										<p>Jl. Urip Sumoharjo No. 20 Makassar, Sulawesi-Selatan 90234</p>
+										<p>No. telp 0411 421203</p>
+										<p>Email: Makassar@asuransiaspan.com</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/06-aspan.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>ASWATA</h4>
+										<p>Jl. Sulawesi No. 35 Makassar, Sulawesi-Selatan 90174</p>
+										<p>No. telp 0411 3610600</p>
+										<p>Email: Makassar@aswata.co.id</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/07-aswata.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>SOMPO</h4>
+										<p>Wisma Kalla 5th FI Unit 502</p>
+										<p>Jl. Dr. Sam Ratulangi No. 8-10 Makassar, Sulawesi-Selatan 90125</p>
+										<p>No. telp (0411) 8120886, 8120889</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/08-sompo.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>BRINS</h4>
+										<p>Ruko Mirah 2</p>
+										<p>Jl. Pengayoman No. 10 Makassar, Sulawesi-Selatan 90231</p>
+										<p>No. telp 0411 424896</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/09-brins.png') }}" alt=" " class="img-responsive" />
+								</div>
+							</li>
+							<li>
+								<div class="w3_agileits_testimonial_grid">
+									<div class="test-bg-w3ls">
+										<h4>ABDA</h4>
+										<p>Komplek Latanette Plaza</p>
+										<p>Jl. Sungai Saddang Blok A No. II, Makassar, Sulwesi-Selatan 90114</p>
+										<p>No. telp 0411 3623944</p>
+									</div>
+									<img src="{{ asset('public/images/asuransi/10-abda.png') }}" alt=" " class="img-responsive" />
 								</div>
 							</li>
 						</ul>
@@ -333,7 +413,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container py-4 mt-2">
 		<div class="row footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
-				<h2><a href="{{ asset('public/index.html') }}"> Shipping</a></h2>
+				<h2><a href="{{ asset('public/index.html') }}">Panrita Oto</a></h2>
 				<p class="mb-3 mt-3">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
 				<ul class="social-nav footer-social social two">
 					<li>
@@ -360,13 +440,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			
 					<div class="col-md-2 sign-gd">
-						<h4>Useful Links</h4>
+						<h4>Tautan</h4>
 						<ul>
 							<li><a href="{{ asset('public/index.html') }}">Home</a></li>
-							<li><a href="{{ asset('public/about.html') }}">About</a></li>
-							<li><a href="{{ asset('public/services.html') }}">Services</a></li>
-							<li><a href="{{ asset('public/gallery.html') }}">Gallery</a></li>
-							<li><a href="{{ asset('public/contact.html') }}">Contact</a></li>
+							<li><a href="{{ asset('public/about.html') }}">Tentang Kami</a></li>
+							<li><a href="{{ asset('public/services.html') }}">Pelayanan</a></li>
+							<li><a href="{{ asset('public/gallery.html') }}">Galeri</a></li>
+							<li><a href="{{ asset('public/contact.html') }}">Kontak</a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 sign-gd flickr-post">
@@ -384,15 +464,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</div>
 					<div class="col-md-3 sign-gd-two">
-						<h4>Contact Information</h4>
+						<h4>Kontak Informasi</h4>
 						<div class="address">
 							<div class="address-grid">
 								<div class="address-left">
 									<i class="fa fa-phone" aria-hidden="true"></i>
 								</div>
 								<div class="address-right">
-									<h6>Phone Number</h6>
-									<p>+1 234 567 8901</p>
+									<h6>Telepon</h6>
+									<p>+62 853 9837 1559<br />
+									+62 813 5582 9003</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -401,8 +482,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<i class="fa fa-envelope" aria-hidden="true"></i>
 								</div>
 								<div class="address-right">
-									<h6>Email Address</h6>
-									<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+									<h6>Alamat Email</h6>
+									<p><a href="mailto:panritaotobulukumba@email.com"> panritaotobulukumba@email.com</a></p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -411,9 +492,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<i class="fa fa-map-marker" aria-hidden="true"></i>
 								</div>
 								<div class="address-right">
-									<h6>Location</h6>
-									<p>1234k Avenue,Block-4,New York City.
-
+									<h6>Alamat</h6>
+									<p>Jl. Panggala, Taccorong, Desa Polewali, Taccorong, Polewali,<br /> 
+										Kabupaten Bulukumba, Sulawesi Selatan 92561
 									</p>
 								</div>
 								
@@ -423,7 +504,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	</section>
-	<p class="copy-right py-3">&copy 2018 Shipping. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+	<p class="copy-right py-3">&copy 2018 Panrita Oto. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 	<!-- //footer -->
 </footer>
 <!-- Modal -->
