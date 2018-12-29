@@ -1,12 +1,5 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html>
 <head>
 	<title>Panrita Oto | Bengkel Repair Otomotif</title>
 	<!-- for-mobile-apps -->
@@ -29,10 +22,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="{{ asset('public/css/JiSlider.css') }}" rel="stylesheet">
 	<!-- //banner-slider -->
 	<link rel="stylesheet" href="{{ asset('public/css/flexslider.css') }}" type="text/css" media="screen" property="" />
-	 <link href="{{ asset('public/css/font-awesome.css') }}" rel="stylesheet">
+	<link href="{{ asset('public/css/font-awesome.css') }}" rel="stylesheet">
 	<link href="{{ asset('public/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<link href="//fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+	<!-- Chocolat image slider -->
+	<script type="text/javascript" src="{{ asset('public/js/jquery.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/jquery.chocolat.js') }}"></script>
+	<link rel="stylesheet" href="{{ asset('public/css/chocolat.css') }}" type="text/css" media="screen" charset="utf-8">
 
 </head>
 
@@ -279,132 +277,157 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </section>
 <!-- //smooth-shipping -->
 
-
-
-	<!-- testimonials -->
-	<section class="testimonials py-md-5">
-		<div class="container py-4 mt-2">
-			<h3 class="tittle-w3ls text-center mb-3 text-white">Asuransi Kerja Sama</h3>
-				<p class="tit text-center mx-auto text-white">Kami memiliki kerja sama dengan pihak asuransi di bengkel kami.</p>
-
-			<div class="w3_agileits_testimonial_grids pt-4 mt-md-4">
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>JASINDO</h4>
-										<p>Jl. Haji Bau No. 8 Mariso, Makassar, Sulawesi-Selatan 90122</p>
-										<p>No. telp (0411) 873888,875091,873666</p>
-										<p>Email: Makassar@jasindonet.com</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/01-asuransi-jasindo.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>ASOKA MAS</h4>
-										<p>Jl. Tentara Pelajar No. 127 Makassar, Sulawesi-Selatan 90172</p>
-										<p>No. telp 0411 3635269</p>
-										<p>Email: Makassar@asuransi-asoka.com</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/02-asoka-mas.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>TRI PAKARTA</h4>
-										<p>Jl. Dr. Sam Ratulangi No. 9 Makassar , Sulawesi-Selatan 90113</p>
-										<p>No. telp 0411 8111400</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/03-tri-pakarta.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>RAMAYANA</h4>
-										<p>Jl. Dr. Sam Ratulangi No. 85 C Makassar, Sulawesi-Selatan 90132</p>
-										<p>No. telp (0411) 878663, 878664, 878666</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/04-asuransi-ramayana.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>SINAR MAS</h4>
-										<p>Jl. Gunung Bawakaraeng No. 67-69 Makassar, Sulawesi-Selatan 90157</p>
-										<p>No. telp 0411 3616752</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/05-sinar-mas.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>ASPAN</h4>
-										<p>Gedung Graha Pena Lt. 1 Kav 100E</p>
-										<p>Jl. Urip Sumoharjo No. 20 Makassar, Sulawesi-Selatan 90234</p>
-										<p>No. telp 0411 421203</p>
-										<p>Email: Makassar@asuransiaspan.com</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/06-aspan.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>ASWATA</h4>
-										<p>Jl. Sulawesi No. 35 Makassar, Sulawesi-Selatan 90174</p>
-										<p>No. telp 0411 3610600</p>
-										<p>Email: Makassar@aswata.co.id</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/07-aswata.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>SOMPO</h4>
-										<p>Wisma Kalla 5th FI Unit 502</p>
-										<p>Jl. Dr. Sam Ratulangi No. 8-10 Makassar, Sulawesi-Selatan 90125</p>
-										<p>No. telp (0411) 8120886, 8120889</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/08-sompo.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>BRINS</h4>
-										<p>Ruko Mirah 2</p>
-										<p>Jl. Pengayoman No. 10 Makassar, Sulawesi-Selatan 90231</p>
-										<p>No. telp 0411 424896</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/09-brins.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-							<li>
-								<div class="w3_agileits_testimonial_grid">
-									<div class="test-bg-w3ls">
-										<h4>ABDA</h4>
-										<p>Komplek Latanette Plaza</p>
-										<p>Jl. Sungai Saddang Blok A No. II, Makassar, Sulwesi-Selatan 90114</p>
-										<p>No. telp 0411 3623944</p>
-									</div>
-									<img src="{{ asset('public/images/asuransi/10-abda.png') }}" alt=" " class="img-responsive" />
-								</div>
-							</li>
-						</ul>
+<!-- GALLERY -->
+<section class="gallery py-md-5">
+	<div class="container py-4 mt-2">
+	<h3 class="tittle-w3ls text-center mb-3">Galeri</h3>
+		<!-- <p class="tit text-center mx-auto">
+			
+		</p> -->
+		<div class="row agile_gallery_grids w3-agile demo pt-4 mt-md-5">
+			@foreach($instagrams as $instagram)
+			<div class="col-md-4 gal-sec" style="margin-top: 20px;">
+				<div class="gallery-grid1">
+					<a title="" href="{{ $instagram->images->standard_resolution->url }}">
+					<img src="{{ $instagram->images->standard_resolution->url }}" alt=" " class="img-responsive" />
+					<div class="p-mask">
+						<p>Klik untuk melihat detail</p>
 					</div>
-				</section>
+					</a>
+				</div>
 			</div>
+			@endforeach
 		</div>
-	</section>
+		<div class="ab_button">
+			<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Lihat selengkapnya... </a>
+		</div>
+	</div>
+</section>
+<!-- END GALLERY -->
+
+<!-- testimonials -->
+<section class="testimonials py-md-5">
+	<div class="container py-4 mt-2">
+		<h3 class="tittle-w3ls text-center mb-3 text-white">Asuransi Kerja Sama</h3>
+		<p class="tit text-center mx-auto text-white">Kami memiliki kerja sama dengan pihak asuransi di bengkel kami.</p>
+		<div class="w3_agileits_testimonial_grids pt-4 mt-md-4">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>JASINDO</h4>
+									<p>Jl. Haji Bau No. 8 Mariso, Makassar, Sulawesi-Selatan 90122</p>
+									<p>No. telp (0411) 873888,875091,873666</p>
+									<p>Email: Makassar@jasindonet.com</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/01-asuransi-jasindo.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>ASOKA MAS</h4>
+									<p>Jl. Tentara Pelajar No. 127 Makassar, Sulawesi-Selatan 90172</p>
+									<p>No. telp 0411 3635269</p>
+									<p>Email: Makassar@asuransi-asoka.com</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/02-asoka-mas.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>TRI PAKARTA</h4>
+									<p>Jl. Dr. Sam Ratulangi No. 9 Makassar , Sulawesi-Selatan 90113</p>
+									<p>No. telp 0411 8111400</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/03-tri-pakarta.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>RAMAYANA</h4>
+									<p>Jl. Dr. Sam Ratulangi No. 85 C Makassar, Sulawesi-Selatan 90132</p>
+									<p>No. telp (0411) 878663, 878664, 878666</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/04-asuransi-ramayana.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>SINAR MAS</h4>
+									<p>Jl. Gunung Bawakaraeng No. 67-69 Makassar, Sulawesi-Selatan 90157</p>
+									<p>No. telp 0411 3616752</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/05-sinar-mas.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>ASPAN</h4>
+									<p>Gedung Graha Pena Lt. 1 Kav 100E</p>
+									<p>Jl. Urip Sumoharjo No. 20 Makassar, Sulawesi-Selatan 90234</p>
+									<p>No. telp 0411 421203</p>
+									<p>Email: Makassar@asuransiaspan.com</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/06-aspan.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>ASWATA</h4>
+									<p>Jl. Sulawesi No. 35 Makassar, Sulawesi-Selatan 90174</p>
+									<p>No. telp 0411 3610600</p>
+									<p>Email: Makassar@aswata.co.id</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/07-aswata.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>SOMPO</h4>
+									<p>Wisma Kalla 5th FI Unit 502</p>
+									<p>Jl. Dr. Sam Ratulangi No. 8-10 Makassar, Sulawesi-Selatan 90125</p>
+									<p>No. telp (0411) 8120886, 8120889</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/08-sompo.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>BRINS</h4>
+									<p>Ruko Mirah 2</p>
+									<p>Jl. Pengayoman No. 10 Makassar, Sulawesi-Selatan 90231</p>
+									<p>No. telp 0411 424896</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/09-brins.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+						<li>
+							<div class="w3_agileits_testimonial_grid">
+								<div class="test-bg-w3ls">
+									<h4>ABDA</h4>
+									<p>Komplek Latanette Plaza</p>
+									<p>Jl. Sungai Saddang Blok A No. II, Makassar, Sulwesi-Selatan 90114</p>
+									<p>No. telp 0411 3623944</p>
+								</div>
+								<img src="{{ asset('public/images/asuransi/10-abda.png') }}" alt=" " class="img-responsive" />
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</section>
 <!-- //testimonials -->
 
 <!-- footer -->
@@ -439,68 +462,61 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</ul>
 			</div>
 			
-					<div class="col-md-2 sign-gd">
-						<h4>Tautan</h4>
-						<ul>
-							<li><a href="{{ asset('public/index.html') }}">Home</a></li>
-							<li><a href="{{ url('/') }}">Tentang Kami</a></li>
-							<li><a href="{{ url('/') }}">Pelayanan</a></li>
-							<li><a href="{{ asset('public/gallery.html') }}">Galeri</a></li>
-							<li><a href="{{ url('/') }}">Kontak</a></li>
-						</ul>
-					</div>
-					<div class="col-md-4 sign-gd flickr-post">
-						<h4>Instagram</span></h4>
-						<ul>
-							<li><a href="#"><img src="{{ asset('public/images/g1.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g2.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g3.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g2.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g1.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g3.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g2.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g3.jpg') }}" alt=" " class="img-fluid" /></a></li>
-							<li><a href="#"><img src="{{ asset('public/images/g1.jpg') }}" alt=" " class="img-fluid" /></a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 sign-gd-two">
-						<h4>Kontak Informasi</h4>
-						<div class="address">
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-phone" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Telepon</h6>
-									<p>+62 853 9837 1559<br />
-									+62 813 5582 9003</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Alamat Email</h6>
-									<p><a href="mailto:panritaotobulukumba@email.com"> panritaotobulukumba@email.com</a></p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-map-marker" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Alamat</h6>
-									<p>Jl. Panggala, Taccorong, Desa Polewali, Taccorong, Polewali,<br /> 
-										Kabupaten Bulukumba, Sulawesi Selatan 92561
-									</p>
-								</div>
-								
-							</div>
+			<div class="col-md-2 sign-gd">
+				<h4>Tautan</h4>
+				<ul>
+					<li><a href="{{ asset('public/index.html') }}">Home</a></li>
+					<li><a href="{{ url('/') }}">Tentang Kami</a></li>
+					<li><a href="{{ url('/') }}">Pelayanan</a></li>
+					<li><a href="{{ asset('public/gallery.html') }}">Galeri</a></li>
+					<li><a href="{{ url('/') }}">Kontak</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 sign-gd flickr-post">
+				<h4>Instagram</span></h4>
+				<ul>
+				@foreach($instagrams as $instagram)
+				<li><a href="#"><img src="{{ $instagram->images->thumbnail->url }}" alt=" " class="img-fluid" /></a></li>
+				@endforeach
+				</ul>
+			</div>
+			<div class="col-md-3 sign-gd-two">
+				<h4>Kontak Informasi</h4>
+				<div class="address">
+					<div class="address-grid">
+						<div class="address-left">
+							<i class="fa fa-phone" aria-hidden="true"></i>
 						</div>
+						<div class="address-right">
+							<h6>Telepon</h6>
+							<p>+62 853 9837 1559<br />
+							+62 813 5582 9003</p>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
+					<div class="address-grid">
+						<div class="address-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="address-right">
+							<h6>Alamat Email</h6>
+							<p><a href="mailto:panritaotobulukumba@email.com"> panritaotobulukumba@email.com</a></p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="address-grid">
+						<div class="address-left">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						</div>
+						<div class="address-right">
+							<h6>Alamat</h6>
+							<p>Jl. Panggala, Taccorong, Desa Polewali, Taccorong, Polewali,<br /> 
+								Kabupaten Bulukumba, Sulawesi Selatan 92561
+							</p>
+						</div>	
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	</section>
@@ -509,104 +525,112 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </footer>
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title">Shipping</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-					<div class="agileits-w3layouts-info">
-						<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="" />
-						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
-					</div>
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Shipping</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="agileits-w3layouts-info">
+					<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="" />
+					<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
 				</div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- //Modal -->
 
-	<!-- js -->
-	<script src="{{ asset('public/js/jquery-2.2.3.min.js') }}"></script>
-	<!-- //js-->
-	<!--banner-slider-->
-	<script src="{{ asset('public/js/JiSlider.js') }}"></script>
-	<script> 
-		$(window).load(function () {
-			$('#JiSlider').JiSlider({
-				color: '#fff',
-				start: 1,
-				reverse: false
-			}).addClass('ff')
-		})
-	</script>
-	<!-- //banner-slider -->
-	<!-- flexSlider -->
-					<script defer src="{{ asset('public/js/jquery.flexslider.js') }}"></script>
-					<script type="text/javascript">
-					$(window).load(function(){
-					  $('.flexslider').flexslider({
-						animation: "slide",
-						start: function(slider){
-						  $('body').removeClass('loading');
-						}
-					  });
-					});
-				  </script>
-				<!-- //flexSlider -->
 
-	<!-- start-smooth-scrolling -->
-	<script  src="{{ asset('public/js/move-top.js') }}"></script>
-	<script  src="{{ asset('public/js/easing.js') }}"></script>
-	<script> 
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-
-				$('html,body').animate({
-					scrollTop: $(this.hash).offset().top
-				}, 1000);
-			});
+<!-- js -->
+<script src="{{ asset('public/js/jquery-2.2.3.min.js') }}"></script>
+<!-- //js-->
+<!--banner-slider-->
+<script src="{{ asset('public/js/JiSlider.js') }}"></script>
+<script> 
+	$(window).load(function () {
+		$('#JiSlider').JiSlider({
+			color: '#fff',
+			start: 1,
+			reverse: false
+		}).addClass('ff')
+	})
+</script>
+<!-- //banner-slider -->
+<!-- flexSlider -->
+<script defer src="{{ asset('public/js/jquery.flexslider.js') }}"></script>
+<script type="text/javascript">
+	$(window).load(function(){
+		$('.flexslider').flexslider({
+			animation: "slide",
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
 		});
+	});
+</script>
+<!-- //flexSlider -->
+
+<!-- start-smooth-scrolling -->
+<script  src="{{ asset('public/js/move-top.js') }}"></script>
+<script  src="{{ asset('public/js/easing.js') }}"></script>
+<script> 
+	jQuery(document).ready(function ($) {
+		$(".scroll").click(function (event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop: $(this.hash).offset().top
+			}, 1000);
+		});
+	});
+</script>
+<!-- //end-smooth-scrolling -->
+<!-- stats -->
+<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('public/js/jquery.countup.js') }}"></script>
+	<script>
+		$('.counter').countUp();
 	</script>
-	<!-- //end-smooth-scrolling -->
-	<!-- stats -->
-	<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
-	<script src="{{ asset('public/js/jquery.countup.js') }}"></script>
-		<script>
-			$('.counter').countUp();
-		</script>
 <!-- //stats -->
 
-	<!-- smooth-scrolling-of-move-up -->
-	<script> 
-		$(document).ready(function () {
-			/*
-			var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-			};
-			*/
-
-			$().UItoTop({
-				easingType: 'easeOutQuart'
-			});
-
+<!-- smooth-scrolling-of-move-up -->
+<script> 
+	$(document).ready(function () {
+		/*
+		var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+		};
+		*/
+		$().UItoTop({
+			easingType: 'easeOutQuart'
 		});
-	</script>
-	<script  src="{{ asset('public/js/SmoothScroll.min.js') }}"></script>
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	 <script src="{{ asset('public/js/bootstrap.js') }}"></script>
-</body>
+	});
+</script>
+<script  src="{{ asset('public/js/SmoothScroll.min.js') }}"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{ asset('public/js/bootstrap.js') }}"></script>
 
+<!-- gallery -->
+<script src="{{ asset('public/js/jquery.chocolat.js') }}"></script>
+<!--light-box-files -->
+<script type="text/javascript">
+	$(function () {
+		$('.gallery-grid1 a').Chocolat();
+	});
+</script>
+<!-- //gallery -->
+
+</body>
 </html>
