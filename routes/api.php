@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// FIREBASE
+Route::get('customer-list', 'FirebaseController@index');
+Route::post('add-customer', 'FirebaseController@insertCustomer');
+Route::get('check-customer', 'FirebaseController@checkCustomer');

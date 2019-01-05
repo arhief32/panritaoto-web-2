@@ -218,9 +218,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h5 class="card-title">Duco Oven</h5>
 				<p class="card-text mb-3 ">Bicara metode pengecatan bodi, saat ini paling ideal adalah dengan memanfaatkan ruangan khusus sebagai ruang pengerjaan. 
 					Metode yang kerap dijuluki "cat oven" ini, memanfaatkan ruangan yang bisa diatur level temperaturnya, mirip oven.</p>
-					<div class="ab_button">
+					<!-- <div class="ab_button">
 						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="card">
@@ -230,9 +230,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p class="card-text mb-3 ">Kami tahu kendaraan Anda lebih dari sekedar tunggangan yang siap mengantar Anda ke tempat tujuan. 
 					Kendaraan Anda juga cermin kebanggaan Anda yang harus tampil prima baik di dalam, maupun tampilan luarnya. 
 					Untuk itulah Panrita Oto menyediakan layanan Body repair.</p>
-					<div class="ab_button">
+					<!-- <div class="ab_button">
 						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="card">
@@ -242,9 +242,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p class="card-text mb-3 ">Memberikan perlindungan terhadap kendaraan merupakan hal yang mutlak bagi setiap pemilik mobil. 
 					Karena mobil merupakan alat penunjang aktivitas sehari-hari, dan bagian dari gaya hidup. Ada beberapa cara agar mobil 
 					tetap tampil maksimal dengan cat (paint) bodi yang mengilap, tetap orisinal dan bersih.</p>
-					<div class="ab_button">
+					<!-- <div class="ab_button">
 						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -256,9 +256,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p class="card-text mb-3 ">Part-part yang kinerjanya menurun juga akan mempengaruhi performa mesin kendaraan tersebut. 
 				Oleh sebab itu part-part yang terindikasi kinerjanya menurun harus dilakukan perawatan. Salah satu perawatan yang 
 				dilakukan adalah perawatan atau servis berkala.</p>
-					<div class="ab_button">
+					<!-- <div class="ab_button">
 						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="card">
@@ -267,9 +267,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h5 class="card-title">Cat Sikkens</h5>
 				<p class="card-text mb-3 ">Cat sikkens selama ini memang lebih banyak digunakan oleh kalangan induatri otomotif dan juga bengkel-bengkel repair 
 					yang bereputasi tinggi. Sehingga produk retailnya seringkali jarang dijumpai pada toko retail biasa, kecuali toko yang fokus menjual bahan finishing mobil.</p>
-					<div class="ab_button">
+					<!-- <div class="ab_button">
 						<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Baca selanjutnya... </a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
