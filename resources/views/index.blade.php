@@ -163,12 +163,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<h3 class="text-center">Cek Proses</h3>
 								<p class="text-center">Kendaraan anda disini</p>
 							</div>
-							<form action="#" method="post" class="banner_form">
+							<form class="banner_form">
 								<div class="sec-right">
 									<!-- <label class="contact-form-text">Moving To</label> -->
-									<input placeholder="Masukkan nomor kendaraan anda " name="first name" type="text" required="">
+									<input id="license-number-textbox" placeholder="Masukkan nomor kendaraan anda " type="text" required="">
 								</div>
-								<input type="submit" value="CEK!">
+								<input id="license-number-button" type="submit" value="CEK!">
 							</form>
 						</div>
 					</div>
@@ -548,6 +548,49 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //Modal -->
 
+<!-- Modal License Number -->
+<div class="modal fade" id="license-number-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Cek Kendaraan</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<table width="100%">
+					<thead class="table">
+						<td>
+							<h5>No. Kendaraan</h5>
+						</td>
+						<td>
+							<h5>Nama Lengkap</h5>
+						</td>
+					</thead>
+					<tbody class="table">
+						<td>
+							dd390lu
+						</td>
+						<td>
+							Arief Muarrief
+						</td>
+					</tbody>
+				</table>
+				<div class="agileits-w3layouts-info">
+					<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="" />
+					<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //Modal -->
+
 
 <!-- js -->
 <script src="{{ asset('public/js/jquery-2.2.3.min.js') }}"></script>
@@ -631,6 +674,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 </script>
 <!-- //gallery -->
+
+<!-- SCRIPT BY ARIEF MUARRIEF BUHARI -->
+<script>
+$(document).ready(function () {
+	$('#license-number-button').on('click', function(e){
+		e.preventDefault()
+		var license_number = $('#license-number-textbox').val()
+		$('#license-number-modal').modal()
+
+		$('#license-number-textbox').val('')
+	})
+})
+</script>
 
 </body>
 </html>
