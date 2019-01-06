@@ -54,3 +54,22 @@ Route::get('/', function () {
         'gallery' => array_slice($images, 0, 3),
     ]);
 });
+
+
+/**
+ * Admin Page
+ */
+Route::prefix('admin')->group(function () {
+    // Route::get('login', 'AdminController@login');
+    // Route::get('login-process', 'AdminController@loginProcess');
+    // Route::get('/', function(){
+    //     return redirect(url('admin/login'));
+    // });
+    
+    Route::get('dashboard', 'AdminController@index');
+    Route::get('customer', 'AdminController@customerPage');
+    
+    Route::get('users', function(){
+        
+    });
+});
