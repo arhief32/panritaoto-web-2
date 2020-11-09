@@ -17,20 +17,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		}
 	</script>
 	<!-- //for-mobile-apps -->
-	 <link href="{{ asset('public/css/bootstrap.css') }}" type="text/css" rel="stylesheet" media="all">
+	 <link href="{{ asset('css/bootstrap.css') }}" type="text/css" rel="stylesheet" media="all">
 	<!--banner slider  -->
-	<link href="{{ asset('public/css/JiSlider.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/JiSlider.css') }}" rel="stylesheet">
 	<!-- //banner-slider -->
-	<link rel="stylesheet" href="{{ asset('public/css/flexslider.css') }}" type="text/css" media="screen" property="" />
-	<link href="{{ asset('public/css/font-awesome.css') }}" rel="stylesheet">
-	<link href="{{ asset('public/css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" type="text/css" media="screen" property="" />
+	<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
 	<link href="//fonts.googleapis.com/css?family=Rubik:400,500,700,900" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
 
 	<!-- Chocolat image slider -->
-	<script type="text/javascript" src="{{ asset('public/js/jquery.js') }}"></script>
-	<script type="text/javascript" src="{{ asset('public/js/jquery.chocolat.js') }}"></script>
-	<link rel="stylesheet" href="{{ asset('public/css/chocolat.css') }}" type="text/css" media="screen" charset="utf-8">
+	<script type="text/javascript" src="{{ asset('js/jquery.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('js/jquery.chocolat.js') }}"></script>
+	<link rel="stylesheet" href="{{ asset('css/chocolat.css') }}" type="text/css" media="screen" charset="utf-8">
 
 </head>
 
@@ -42,9 +42,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <header>
                 <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
 
-					<img src="{{ asset('public/images/LOGO-2.png') }}" height="60">
+					<img src="{{ asset('images/LOGO-2.png') }}" height="60">
 					<h1>
-                        <a class="navbar-brand" href="{{ asset('public/index.html') }}">
+                        <a class="navbar-brand" href="{{ asset('index.html') }}">
 							
                         </a>
                     </h1>
@@ -75,8 +75,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     Pages
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ asset('public/gallery.html') }}">Gallery</a>
-									<a class="dropdown-item" href="{{ asset('public/typo.html') }}">Typography</a>
+                                    <a class="dropdown-item" href="{{ asset('gallery.html') }}">Gallery</a>
+									<a class="dropdown-item" href="{{ asset('typo.html') }}">Typography</a>
                                 </div>
                             </li> -->
                             <li class="nav-item mr-3">
@@ -183,7 +183,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="inner_sec_info_wthree_agile pt-4 mt-md-4">
 				<div class="row help_full">
 					<div class="col-md-6 banner_bottom_grid help">
-						<img src="{{ asset('public/images/g1.jpg') }}" alt=" " class="img-fluid">
+						<img src="{{ asset('images/g1.jpg') }}" alt=" " class="img-fluid">
 					</div>
 					<div class="col-md-6 banner_bottom_left">
 						<h4>Profil Panrita Oto</h4>
@@ -213,7 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			Kami adalah perusahaan yang bergerak di bidang usaha otomotif yang melayani:</p>
 		<div class="card-deck pt-4 mt-md-4">
 			<div class="card">
-				<img src="{{ asset('public/images/01-duco-oven.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('images/01-duco-oven.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Duco Oven</h5>
 				<p class="card-text mb-3 ">Bicara metode pengecatan bodi, saat ini paling ideal adalah dengan memanfaatkan ruangan khusus sebagai ruang pengerjaan. 
@@ -224,7 +224,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/02-body-repair.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('images/02-body-repair.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Body Repair</h5>
 				<p class="card-text mb-3 ">Kami tahu kendaraan Anda lebih dari sekedar tunggangan yang siap mengantar Anda ke tempat tujuan. 
@@ -236,7 +236,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/03-painting.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('images/03-painting.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Painting</h5>
 				<p class="card-text mb-3 ">Memberikan perlindungan terhadap kendaraan merupakan hal yang mutlak bagi setiap pemilik mobil. 
@@ -250,7 +250,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="card-deck pt-4 mt-md-4">
 			<div class="card">
-				<img src="{{ asset('public/images/04-service-station.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('images/04-service-station.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Service Station</h5>
 				<p class="card-text mb-3 ">Part-part yang kinerjanya menurun juga akan mempengaruhi performa mesin kendaraan tersebut. 
@@ -262,7 +262,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<div class="card">
-				<img src="{{ asset('public/images/05-cat-sickens.jpg') }}" class="img-fluid" alt="Card image cap">
+				<img src="{{ asset('images/05-cat-sickens.jpg') }}" class="img-fluid" alt="Card image cap">
 				<div class="card-body w3ls-card">
 				<h5 class="card-title">Cat Sikkens</h5>
 				<p class="card-text mb-3 ">Cat sikkens selama ini memang lebih banyak digunakan oleh kalangan induatri otomotif dan juga bengkel-bengkel repair 
@@ -322,7 +322,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>No. telp (0411) 873888,875091,873666</p>
 									<p>Email: Makassar@jasindonet.com</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/01-asuransi-jasindo.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/01-asuransi-jasindo.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -333,7 +333,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>No. telp 0411 3635269</p>
 									<p>Email: Makassar@asuransi-asoka.com</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/02-asoka-mas.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/02-asoka-mas.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -343,7 +343,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Dr. Sam Ratulangi No. 9 Makassar , Sulawesi-Selatan 90113</p>
 									<p>No. telp 0411 8111400</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/03-tri-pakarta.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/03-tri-pakarta.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -353,7 +353,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Dr. Sam Ratulangi No. 85 C Makassar, Sulawesi-Selatan 90132</p>
 									<p>No. telp (0411) 878663, 878664, 878666</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/04-asuransi-ramayana.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/04-asuransi-ramayana.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -363,7 +363,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Gunung Bawakaraeng No. 67-69 Makassar, Sulawesi-Selatan 90157</p>
 									<p>No. telp 0411 3616752</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/05-sinar-mas.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/05-sinar-mas.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -375,7 +375,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>No. telp 0411 421203</p>
 									<p>Email: Makassar@asuransiaspan.com</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/06-aspan.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/06-aspan.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -386,7 +386,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>No. telp 0411 3610600</p>
 									<p>Email: Makassar@aswata.co.id</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/07-aswata.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/07-aswata.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -397,7 +397,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Dr. Sam Ratulangi No. 8-10 Makassar, Sulawesi-Selatan 90125</p>
 									<p>No. telp (0411) 8120886, 8120889</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/08-sompo.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/08-sompo.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -408,7 +408,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Pengayoman No. 10 Makassar, Sulawesi-Selatan 90231</p>
 									<p>No. telp 0411 424896</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/09-brins.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/09-brins.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 						<li>
@@ -419,7 +419,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<p>Jl. Sungai Saddang Blok A No. II, Makassar, Sulwesi-Selatan 90114</p>
 									<p>No. telp 0411 3623944</p>
 								</div>
-								<img src="{{ asset('public/images/asuransi/10-abda.png') }}" alt=" " class="img-responsive" />
+								<img src="{{ asset('images/asuransi/10-abda.png') }}" alt=" " class="img-responsive" />
 							</div>
 						</li>
 					</ul>
@@ -436,7 +436,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container py-4 mt-2">
 		<div class="row footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
-				<h2><a href="{{ asset('public/index.html') }}">Panrita Oto</a></h2>
+				<h2><a href="{{ asset('index.html') }}">Panrita Oto</a></h2>
 				<p class="mb-3 mt-3">Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
 				<ul class="social-nav footer-social social two">
 					<li>
@@ -465,10 +465,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-2 sign-gd">
 				<h4>Tautan</h4>
 				<ul>
-					<li><a href="{{ asset('public/index.html') }}">Home</a></li>
+					<li><a href="{{ asset('index.html') }}">Home</a></li>
 					<li><a href="{{ url('/') }}">Tentang Kami</a></li>
 					<li><a href="{{ url('/') }}">Pelayanan</a></li>
-					<li><a href="{{ asset('public/gallery.html') }}">Galeri</a></li>
+					<li><a href="{{ asset('gallery.html') }}">Galeri</a></li>
 					<li><a href="{{ url('/') }}">Kontak</a></li>
 				</ul>
 			</div>
@@ -520,7 +520,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	</section>
-	<p class="copy-right py-3">&copy 2018 Panrita Oto. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+	<p class="copy-right py-3">&copy 2020 Panrita Oto. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
 	<!-- //footer -->
 </footer>
 <!-- Modal -->
@@ -535,7 +535,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="modal-body">
 				<div class="agileits-w3layouts-info">
-					<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="" />
+					<img src="{{ asset('images/g1.jpg') }}" class="img-fluid" alt="" />
 					<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
 				</div>
 			</div>
@@ -578,7 +578,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</tbody>
 				</table>
 				<div class="agileits-w3layouts-info">
-					<img src="{{ asset('public/images/g1.jpg') }}" class="img-fluid" alt="" />
+					<img src="{{ asset('images/g1.jpg') }}" class="img-fluid" alt="" />
 					<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. </p>
 				</div>
 			</div>
@@ -593,10 +593,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 <!-- js -->
-<script src="{{ asset('public/js/jquery-2.2.3.min.js') }}"></script>
+<script src="{{ asset('js/jquery-2.2.3.min.js') }}"></script>
 <!-- //js-->
 <!--banner-slider-->
-<script src="{{ asset('public/js/JiSlider.js') }}"></script>
+<script src="{{ asset('js/JiSlider.js') }}"></script>
 <script> 
 	$(window).load(function () {
 		$('#JiSlider').JiSlider({
@@ -608,7 +608,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //banner-slider -->
 <!-- flexSlider -->
-<script defer src="{{ asset('public/js/jquery.flexslider.js') }}"></script>
+<script defer src="{{ asset('js/jquery.flexslider.js') }}"></script>
 <script type="text/javascript">
 	$(window).load(function(){
 		$('.flexslider').flexslider({
@@ -622,8 +622,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //flexSlider -->
 
 <!-- start-smooth-scrolling -->
-<script  src="{{ asset('public/js/move-top.js') }}"></script>
-<script  src="{{ asset('public/js/easing.js') }}"></script>
+<script  src="{{ asset('js/move-top.js') }}"></script>
+<script  src="{{ asset('js/easing.js') }}"></script>
 <script> 
 	jQuery(document).ready(function ($) {
 		$(".scroll").click(function (event) {
@@ -636,8 +636,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //end-smooth-scrolling -->
 <!-- stats -->
-<script src="{{ asset('public/js/jquery.waypoints.min.js') }}"></script>
-<script src="{{ asset('public/js/jquery.countup.js') }}"></script>
+<script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('js/jquery.countup.js') }}"></script>
 	<script>
 		$('.counter').countUp();
 	</script>
@@ -659,14 +659,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	});
 </script>
-<script  src="{{ asset('public/js/SmoothScroll.min.js') }}"></script>
+<script  src="{{ asset('js/SmoothScroll.min.js') }}"></script>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ asset('public/js/bootstrap.js') }}"></script>
+<script src="{{ asset('js/bootstrap.js') }}"></script>
 
 <!-- gallery -->
-<script src="{{ asset('public/js/jquery.chocolat.js') }}"></script>
+<script src="{{ asset('js/jquery.chocolat.js') }}"></script>
 <!--light-box-files -->
 <script type="text/javascript">
 	$(function () {

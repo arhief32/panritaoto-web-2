@@ -14,40 +14,41 @@ use Vinkla\Instagram\Instagram;
 use Illuminate\Support\Facades\Storage;
 
 Route::get('/', function () {
-    // panritaoto token = 6571767978.1677ed0.b4c706e35e2b49e3a3b32af8473bb38f
-    $instagrams = new Instagram('6571767978.1677ed0.b4c706e35e2b49e3a3b32af8473bb38f');
-    $instagrams = $instagrams->media();
-    // $instagrams = array_slice($instagrams, 0, 6);
+    // // panritaoto token = 6571767978.1677ed0.b4c706e35e2b49e3a3b32af8473bb38f
+    // $instagrams = new Instagram('6571767978.1677ed0.b4c706e35e2b49e3a3b32af8473bb38f');
+    // $instagrams = $instagrams->media();
+    // // $instagrams = array_slice($instagrams, 0, 6);
     
+    // $instagram_array = [];
+    // foreach($instagrams as $instagram)
+    // {
+    //     if($instagram->type == 'carousel')
+    //     {
+    //         foreach($instagram->carousel_media as $row)
+    //         {
+    //             $row->id = $instagram->id;
+    //             $row->caption = $instagram->caption;
+    //             array_push($instagram_array, $row);
+    //         }
+    //     }
+    //     else
+    //     {
+    //         array_push($instagram_array, $instagram);
+    //     }
+    // }
+    // $instagram_array = array_slice($instagram_array, 0, 6);
     $instagram_array = [];
-    foreach($instagrams as $instagram)
-    {
-        if($instagram->type == 'carousel')
-        {
-            foreach($instagram->carousel_media as $row)
-            {
-                $row->id = $instagram->id;
-                $row->caption = $instagram->caption;
-                array_push($instagram_array, $row);
-            }
-        }
-        else
-        {
-            array_push($instagram_array, $instagram);
-        }
-    }
-    $instagram_array = array_slice($instagram_array, 0, 6);
 
     
-    // Gallery
-    $gallery = \File::allFiles('public/images/gallery');
+    // // Gallery
+    // // $gallery = \File::allFiles('public/images/gallery');
     $images = [];
-    foreach($gallery as $image)
-    {
-        $file = pathinfo($image);
-        $image = pathinfo($image);
-        array_push($images, $image['filename'].'.'.$image['extension']);
-    }
+    // // foreach($gallery as $image)
+    // // {
+    // //     $file = pathinfo($image);
+    // //     $image = pathinfo($image);
+    // //     array_push($images, $image['filename'].'.'.$image['extension']);
+    // // }
 
     return view('index', [
         'instagrams' => array_values(array_filter($instagram_array)),
